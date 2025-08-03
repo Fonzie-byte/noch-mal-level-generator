@@ -11,6 +11,7 @@ enum Color {
 struct Column {
     letter: char,
     cells: [Color; 7],
+    star_position: u8,
 }
 
 #[derive(Debug)]
@@ -32,6 +33,7 @@ fn main() {
                     Color::Orange,
                     Color::Yellow,
                 ],
+                star_position: 2,
             },
             Column {
                 letter: 'A',
@@ -44,6 +46,7 @@ fn main() {
                     Color::Orange,
                     Color::Yellow,
                 ],
+                star_position: 2,
             },
             Column {
                 letter: 'A',
@@ -56,6 +59,7 @@ fn main() {
                     Color::Orange,
                     Color::Yellow,
                 ],
+                star_position: 2,
             },
             Column {
                 letter: 'A',
@@ -68,6 +72,7 @@ fn main() {
                     Color::Orange,
                     Color::Yellow,
                 ],
+                star_position: 2,
             },
             Column {
                 letter: 'A',
@@ -80,6 +85,7 @@ fn main() {
                     Color::Orange,
                     Color::Yellow,
                 ],
+                star_position: 2,
             },
             Column {
                 letter: 'A',
@@ -92,6 +98,7 @@ fn main() {
                     Color::Orange,
                     Color::Yellow,
                 ],
+                star_position: 2,
             },
             Column {
                 letter: 'A',
@@ -104,6 +111,7 @@ fn main() {
                     Color::Orange,
                     Color::Yellow,
                 ],
+                star_position: 2,
             },
             Column {
                 letter: 'A',
@@ -116,6 +124,7 @@ fn main() {
                     Color::Orange,
                     Color::Yellow,
                 ],
+                star_position: 2,
             },
             Column {
                 letter: 'A',
@@ -128,6 +137,7 @@ fn main() {
                     Color::Orange,
                     Color::Yellow,
                 ],
+                star_position: 2,
             },
             Column {
                 letter: 'A',
@@ -140,6 +150,7 @@ fn main() {
                     Color::Orange,
                     Color::Yellow,
                 ],
+                star_position: 2,
             },
             Column {
                 letter: 'A',
@@ -152,6 +163,7 @@ fn main() {
                     Color::Orange,
                     Color::Yellow,
                 ],
+                star_position: 2,
             },
             Column {
                 letter: 'A',
@@ -164,6 +176,7 @@ fn main() {
                     Color::Orange,
                     Color::Yellow,
                 ],
+                star_position: 2,
             },
             Column {
                 letter: 'A',
@@ -176,6 +189,7 @@ fn main() {
                     Color::Orange,
                     Color::Yellow,
                 ],
+                star_position: 2,
             },
             Column {
                 letter: 'A',
@@ -188,6 +202,7 @@ fn main() {
                     Color::Orange,
                     Color::Yellow,
                 ],
+                star_position: 2,
             },
             Column {
                 letter: 'A',
@@ -200,6 +215,7 @@ fn main() {
                     Color::Orange,
                     Color::Yellow,
                 ],
+                star_position: 2,
             },
         ],
     };
